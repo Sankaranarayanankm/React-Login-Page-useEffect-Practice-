@@ -4,7 +4,7 @@ import classes from "./Navigation.module.css";
 
 const Navigation = (props) => {
  const cxt= useContext(AuthContext);
- console.log(cxt)
+ 
   return (
     <nav className={classes.nav}>
       <ul>
